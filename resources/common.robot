@@ -9,4 +9,4 @@ ${BROWSER}    chrome
 *** Keywords ***
 Open DealsJunction
     Open Browser    ${URL}    ${BROWSER}
-    Maximize Browser Window
+    Set Window Size    1440    900
